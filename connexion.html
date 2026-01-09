@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
+    <title>connexion</title>
+    <style>
+
+        section {
+            width: 50%;
+            border: 1px solid;
+            border-radius: 5px;
+            margin-left: 25%;
+        }
+
+        h4 {
+            text-align: center;
+            background-color: lightgray;
+            padding: 15px;
+        }
+
+        #info {
+            background-color: skyblue;
+            margin: 5px;
+            color: rgb(8, 112, 153);
+            padding: 14px;
+            border-radius: 5px;
+        }
+
+        input {
+            padding: 16px;
+            border-radius: 5px;
+            width: 70%;
+            margin: 13px;
+            text-align: justify;
+        }
+
+        button {
+            padding: 6px;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .divbtn button {
+            background-color: rgb(69, 183, 228);
+            border-color: rgb(69, 183, 228);
+        }
+
+        .divbtn {
+            margin-left: 71%;
+        }
+        .div{
+            background-color: rgb(221, 149, 42);
+            border-color: rgb(221, 149, 42);
+            margin-left: 2%;
+            width: 30%;
+        }
+        .divt{
+            background-color: rgb(45, 173, 196);
+            border-color: rgb(45, 173, 196);
+            margin: 2%;
+            width: 30%;
+            border-radius: 5px;
+        }
+        .divtv{
+            background-color: rgb(106, 204, 27);
+            border-color: rgb(106, 204, 27);
+            width: 30%;
+            border-radius: 5px;
+        }
+        .ph-lock-keyicon{
+            position: absolute;
+            left: 16px;
+            color: gray;
+        }
+        .brt{
+            background-color: rgb(197, 196, 196);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h4>Espace étudiants</h4>
+        <div id="info">Veuillez renseigner le nom d'ulisateur et le mot de passe</div>
+        <form>
+            <div>
+                <input type="text" placeholder="Nom de l'utilisateur">
+            </div>
+            <div>
+                <input type="password" placeholder="Mot de passe">
+            </div>
+            <div class="divbtn">
+                <button>Se connecter</button>
+            </div>
+        </form>
+        <div class="brt">
+            <button class="div" >Mot de passe oublié?</button>
+            <button class="divt">Vérifier autorisation?</button>
+            <a href="compte.html" class="divtv">Créer un compte</a>
+        </div>
+    </section>
+</body>
+
+</html>
