@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>création de votre compte</title>
+    <style>
+     .div{
+        margin-left: 80%;
+     }
+     .divt{
+        margin-left: 80%;
+     }
+     .divbtn{
+        margin-left: 80%;
+     }
+     .divbtt{
+        margin-left: 80%;
+     }
+     .divbtr{
+        margin-left: 80%;
+     }
+     .divbttt{
+        margin-left: 80%;
+     }
+     .e-mail{
+        margin-left: 80%;
+     }
+     .caracteres{
+        margin-left: 80%;
+     }
+     .btn{
+        text-align: center;
+        margin: 10px;
+     }
+     #info{
+        text-align: center;
+        color: red;
+        margin: 2%;
+     }
+     .id{
+        margin-block-start: 0%;
+        margin-inline-start: 0%;
+     }
+     .idd{
+        margin: 0%;
+        margin-inline-start: 0%;
+     }
+     .nom{
+        margin: 0%;
+        margin-inline-start: 0%;
+     }
+     .prenom{
+        margin: 0%;
+        margin-inline-start: 0%;
+     }
+    .motdepasse{
+        margin: 0%;
+        padding: 0%;
+         margin-inline-start: 0%;
+    }
+    .confirm{
+        margin: 0%;
+         margin-inline-start: 0%;
+    }
+    .compte{
+      margin: 0%;
+      margin-inline-start: 0%;
+    }
+    .capt{
+        margin: 0%;
+        padding: 10px;
+        margin-inline-start: 0%;
+    }
+    .reg{
+        margin: 10px;
+        background-color: rgb(128, 239, 247);
+        border-radius: 5px;
+    }
+    h4{
+      text-align: center;
+      background-color: lightgray;
+      padding: 15px;
+    }
+    .val{
+      background-color: rgb(61, 206, 25);
+      border-color: rgb(61, 206, 25);
+      border-radius: 5px;
+      width: 80px;
+    }
+    .annul{
+      background-color: red;
+      border-color: red;
+      border-radius: 5px;
+      width: 80px;
+    }
+    tr{
+      background-color: lightgray;
+    }
+    .couleur{
+      background-color: rgb(250, 248, 248);
+    }
+    #SPFE{
+      margin-left: 80%;
+      font-style: italic;
+    }
+    </style>
+     </head>
+
+<body>
+   <h4> Création de votre compte</h4>
+    <ul id="info">
+        <li>Tous les champs sont obligatoires</li>
+        <li>Le mot de passe doit contenir 8 caractères minimum avec un mélange de chiffres et de lettres</li>
+    </ul>
+    <fieldset>
+        <select class="divt">
+        <option>Sélectionner le type d'identifiant</option>
+        <option>Numéro Carte d'Identité</option>
+        <option>Numéro Table</option>
+        <option>CIN/Passeport</option>
+        <option>INE</option>
+        </select>
+        <div>
+            <table class="id">Type d'identifiant:</table>
+            <input class="div" type="text"placeholder="Votre identifiant">
+         </div>
+           <div class="couleur">
+            <table class="idd">Votre identifiant:</table>
+            <input class="divbtn" type="text"placeholder="Nom de famille">
+            </div>
+            <div >
+            <table class="nom">Nom:</table>
+            <input class="divbtt" type="text"placeholder="Prénoms">
+            </div>
+            <div class="couleur">
+            <table class="prenom">Prénoms:</table>
+            <input class="divbtr" type="text"placeholder="Créer un mot de passe pour la connexion">
+            </div>
+            <div>
+            <table class="mot de passe">Mot de passe:</table>
+            <input class="divbttt" type="text"placeholder="Confirmer votre mot de passe">
+            </div>
+            <div class="couleur">
+            <table class="confirm">Confirmation du mot de passe:</table>
+            <input class="e-mail" type="text"placeholder="E-mail personnel">
+            </div>
+            <div>
+            <table class="compte">E-mail personnel:</table>
+            <input class="caracteres" type="text"placeholder="Saisissez les caractères ci-dessous">
+            </div>
+            <div class="couleur">
+            <table class="capt">Captcha:</table>
+            </div>
+            <button class="reg">Régénérer</button>
+            <strong id="SPFE">SPFE</strong>
+    </fieldset>
+    <div class="btn">
+        <button class="val">Valider</button>
+        <button class="annul">Annuler</button>
+    </div>
+</body>
+</html>
